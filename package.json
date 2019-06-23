@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-graphql-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": "https://github.com/bahaa-al-deen/nodejs-graphql-boilerplate.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^6.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "apollo-server": "^2.6.4",
+    "apollo-server-express": "^2.6.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1"
+  }
+}
